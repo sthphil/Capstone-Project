@@ -1,6 +1,44 @@
 html {
   box-sizing: border-box;
+  font-size: 16px;
+  font-family: Helvetica, sans-serif;
 }
 *,*:before,*:after {
   box-sizing: inherit;
+}
+
+.bold {
+  font-weight: bold;
+}
+/* Header Section */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+}
+header .logo {
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+  height: 32px;
+  text-transform: uppercase;
+}
+
+nav {
+  margin-right: 24px;
+}
+nav ul li {
+  display: inline-block;
+  margin-left: 16px;
+}
+
+/* Banner Section */
+.banner {
+  background-color: #828280;
+  display: inline-block;
+}
+
+.headline-image {
+  display: inline-block;
 }
