@@ -35,10 +35,33 @@ nav ul li {
 
 /* Banner Section */
 .banner {
-  background-color: #828280;
-  display: inline-block;
+  background-color: #ABABA8;
+  display: flex;
+  align-items: center;
+
 }
 
 .headline-image {
-  display: inline-block;
+    margin: 32px 24px;
+    width: 60%;
+}
+.headline-content {
+line-height: 1.2;
+width: 25%;
+}
+.headline-content h2 {
+  text-align: left;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2.5rem;
+}
+.headline-content p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+.headline-content .btn {
+  background-color: #3B3B3A;
+  color: white;
+  padding: 8px 35%;
 }
