@@ -235,3 +235,11 @@ max-width: 40%;
 }
 
 /* Footer Section */
+footer {
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid black;
+  margin-bottom: 32px;
+
+}
