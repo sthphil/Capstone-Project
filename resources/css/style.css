@@ -139,6 +139,8 @@ width: 25%;
 }
 .course-columns {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   padding: 32px 72px;
 }
 .course-column {
@@ -148,7 +150,7 @@ width: 25%;
   background-color: white;
 }
 .course-image img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 .course-content {
@@ -156,7 +158,7 @@ width: 25%;
 
 }
 .course-content h3 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 .course-content p {
@@ -166,3 +168,70 @@ width: 25%;
   margin: 8px 0;
   text-transform: uppercase;
 }
+
+/* Exhibit Section */
+
+.exhibit-content {
+  display: flex;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.exhibit h1 {
+  text-align: center;
+  font-size: 2.3rem;
+  font-size: bold;
+  margin-top: 32px;
+}
+/* Exhibit left Section */
+.exhibit-left {
+max-width: 60%;
+margin: 0 24px 32px 24px;
+}
+.exhibit-left video {
+  max-width: 100%;
+  height: auto;
+}
+.exhibit-left h3 {
+  font-size: 1.9rem;
+  font-weight: bold;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+.exhibit-left p {
+
+  line-height: 1.4;
+}
+/* Exhibit right section */
+.exhibit-right {
+max-width: 40%;
+
+}
+.exhibit-col {
+  display: flex;
+  align-items: center;
+  padding: 16px 0 16px 16px;
+
+
+}
+.exhibit-col.first {
+  background-color: #ABABA8;
+}
+.col-image {
+  height: auto;
+  max-width: 35%;
+  margin-right: 16px;
+}
+.col-image img {
+  width: 100%;
+  height: auto;
+}
+.col-content {
+  max-width: 65%;
+  line-height: 1.5;
+}
+.col-content h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+/* Footer Section */
