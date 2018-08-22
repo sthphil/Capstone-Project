@@ -100,8 +100,15 @@ width: 25%;
     width: 100%;
   }
   .headline-content {
+    line-height: 1;
     width: 100%;
     padding: 32px 16px;
+  }
+  .headline-content h2{
+    margin-bottom: 32px;
+  }
+  .headline-content p {
+    margin-bottom: 24px;
   }
 }
 /* Learning Section */
