@@ -81,9 +81,10 @@ width: 25%;
   margin-bottom: 3rem;
 }
 .headline-content .btn {
+
   background-color: #3B3B3A;
   color: white;
-  padding: 8px 35%;
+  padding: 12px 35%;
   border-radius: 2%;
 }
 @media only screen and (max-width: 470px) {
@@ -101,14 +102,12 @@ width: 25%;
     width: 100%;
   }
   .headline-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
     line-height: 1;
     width: 100%;
     padding: 32px 16px;
   }
- 
+
   .headline-content h2{
     margin-bottom: 32px;
   }
@@ -145,10 +144,12 @@ width: 25%;
 }
 
 @media only screen and (max-width: 470px) {
-  .info-main {
-    margin: 16px 16px 32px 16px;
+.info-main {
+  margin-top: 16px;
+  margin-bottom: 32px;
+  border-bottom: 1px solid black;
+}
 
-  }
   .first-left {
     display: none;
   }
@@ -188,8 +189,35 @@ width: 25%;
 }
 
 @media only screen and (max-width: 470px) {
+.info-right {
+  max-width: 100%;
+  margin: 0 16px;
 
 
+}
+.info-column {
+ margin-bottom: 64px;
+ flex-wrap: wrap;
+}
+.info-image {
+  padding: 0 0 16px 0;
+  width: 100%;
+
+
+}
+.column-content{
+  padding-left: 16px;
+}
+.info-image img {
+  width: 100%;
+  height: auto;
+
+
+
+}
+.guest {
+  background-color: white;
+}
 }
 
 /* Start learning Section */
