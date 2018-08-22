@@ -84,12 +84,13 @@ width: 25%;
   background-color: #3B3B3A;
   color: white;
   padding: 8px 35%;
+  border-radius: 2%;
 }
 @media only screen and (max-width: 470px) {
   .banner {
     flex-wrap: wrap;
     flex-direction: column;
-    align-items: center;
+
   }
   .headline-image {
     width: 100%;
@@ -100,10 +101,14 @@ width: 25%;
     width: 100%;
   }
   .headline-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     line-height: 1;
     width: 100%;
     padding: 32px 16px;
   }
+ 
   .headline-content h2{
     margin-bottom: 32px;
   }
@@ -138,6 +143,16 @@ width: 25%;
 .main-content-left .quote {
   margin-top: 40px;
 }
+
+@media only screen and (max-width: 470px) {
+  .info-main {
+    margin: 16px 16px 32px 16px;
+
+  }
+  .first-left {
+    display: none;
+  }
+}
 /* Learning right */
 .info-right {
   max-width: 40%;
@@ -170,6 +185,11 @@ width: 25%;
 }
 .guest {
   background-color: #ABABA8;
+}
+
+@media only screen and (max-width: 470px) {
+
+
 }
 
 /* Start learning Section */
