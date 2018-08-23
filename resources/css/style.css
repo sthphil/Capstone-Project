@@ -10,6 +10,18 @@ html {
 .bold {
   font-weight: bold;
 }
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+}
+a {
+  color: #3777FF;
+}
+ span, li {
+  font-family: "Open Sans", sans-serif;
+  color: #383838;
+}
 /* Header Section */
 header {
   display: flex;
@@ -23,7 +35,9 @@ header .logo {
   margin-left: 24px;
   height: 32px;
   text-transform: uppercase;
+  color: #0A0E56;
 }
+
 
 nav {
   margin-right: 24px;
@@ -31,6 +45,10 @@ nav {
 nav ul li {
   display: inline-block;
   margin-left: 16px;
+  padding-bottom: 3px;
+  color: #0A0E56;
+  border-bottom: 1px solid rgba(209,209,208, 0.4);
+
 }
 
 .mobile-nav {
@@ -55,9 +73,10 @@ nav ul li {
 }
 /* Banner Section */
 .banner {
-  background-color: #BFBFBC;
+  background-color: #080B42;
   display: flex;
   align-items: center;
+  color: white;
 
 }
 
@@ -79,13 +98,21 @@ width: 25%;
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 3rem;
+  color: white;
 }
 .headline-content .btn {
-
-  background-color: #3B3B3A;
+  background-color: #FFD21E;
   color: white;
   padding: 12px 35%;
   border-radius: 2%;
+  transition: background-color 500ms linear,
+  color 500ms linear;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #080B42;
+
 }
 @media only screen and (max-width: 470px) {
   .banner {
@@ -135,6 +162,7 @@ width: 25%;
   margin: 32px 0 24px 0;
   font-size: 3.5rem;
   font-weight: bold;
+  color: #080B42;
 }
 .main-content-left p {
   font-size: 1.3rem;
@@ -164,6 +192,12 @@ width: 25%;
 .info-column {
   display: flex;
   align-items: center;
+  transition: background-color 400ms linear,
+  color 400ms linear;
+}
+.info-column:hover {
+  background-color: #080B42;
+  color: white;
 }
 .info-image {
   padding: 16px 16px;
@@ -172,6 +206,7 @@ width: 25%;
 .column-content {
   max-width: 65%;
   line-height: 1.4;
+
 }
 .column-content h3 {
   font-size: 1.7rem;
@@ -181,13 +216,28 @@ width: 25%;
 .column-content p {
   font-size: 1rem;
   margin-bottom: 8px;
+
+
 }
 .column-content a {
   text-decoration: none;
 }
-.guest {
-  background-color: #ABABA8;
+
+.info-column.guest {
+  background-color: #080B42;
+  color: white;
+  transition: background-color 500ms ease-in,
+  color 500ms linear;
 }
+
+.info-column.guest:hover {
+  background-color: white;
+  border: 2px solid rgba(8,27,66,0.7);
+  color: #080B42;
+}
+
+
+
 
 @media only screen and (max-width: 470px) {
 .info-right {
@@ -216,13 +266,15 @@ width: 25%;
 
 /* Start learning Section */
 .courses {
-  background-color: #BFBFBC;
+  background-color: #080B42;
 }
 .courses h1 {
   text-align: center;
   font-size: 2.3rem;
   font-weight: bold;
   padding-top: 32px;
+  color: white;
+
 }
 .course-columns {
   display: flex;
@@ -236,6 +288,12 @@ width: 25%;
   margin-bottom: 32px;
   margin-right: 32px;
   background-color: white;
+  transition: flex 500ms ease-out;
+}
+.course-column:hover {
+  flex: 1.5;
+  border: 1px solid white;
+
 }
 .course-image img {
   max-width: 100%;
