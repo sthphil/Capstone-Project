@@ -88,6 +88,10 @@ nav ul li:hover {
     margin: 32px 24px;
     width: 60%;
 }
+.headline-image img {
+  width: 100%;
+  height: auto;
+}
 .headline-content {
 line-height: 1.2;
 width: 25%;
