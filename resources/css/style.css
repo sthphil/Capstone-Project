@@ -402,6 +402,8 @@ max-width: 40%;
   display: flex;
   align-items: center;
   padding: 16px 0 16px 16px;
+  transition: background-color 500ms linear,
+  color 550ms linear;
 }
 
 .exhibit-col.first {
