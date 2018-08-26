@@ -22,6 +22,7 @@ a {
   font-family: "Open Sans", sans-serif;
   color: #383838;
 }
+
 /* Header Section */
 header {
   display: flex;
@@ -35,9 +36,7 @@ header .logo {
   margin-left: 24px;
   height: 32px;
   text-transform: uppercase;
-
 }
-
 
 nav {
   margin-right: 24px;
@@ -276,6 +275,7 @@ width: 25%;
  background-color: #080B42;
  color: white;
  padding-bottom: 10px;
+
 }
 .info-image {
   padding: 0 0 16px 0;
@@ -289,6 +289,7 @@ width: 25%;
   width: 100%;
   height: auto;
 }
+
 }
 
 /* Start learning Section */
